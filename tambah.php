@@ -17,11 +17,11 @@
 				<form action="" method="post" role="form">
 					<div class="form-group">
 						<label>Nama</label>
-						<input type="text" name="nama" required="" class="form-control">
+						<input type="text" name="nama" required="" class="form-control" autocomplete="off">
 					</div>
 					<div class="form-group">
 						<label>Penyakit</label>
-						<input type="text" name="penyakit" class="form-control">
+						<input type="text" name="penyakit" class="form-control" autocomplete="off">
 					</div>
 
 					<div class="form-group">
@@ -39,7 +39,7 @@
 				if (isset($_POST['submit'])) {
 					//menampung data dari inputan
 					$nama = $_POST['nama'];
-					$harga = $_POST['penyakit'];
+					$penyakit = $_POST['penyakit'];
 					$deskripsi = $_POST['deskripsi'];
 
 					//query untuk menambahkan pasien ke database, pastikan urutan nya sama dengan di database

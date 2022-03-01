@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>RS Jaya Sentosa</title>
+	<title>RS Jaya Sentosa 	</title>
 </head>
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <body>
@@ -12,6 +12,7 @@
 				DATA PASIEN <a href="tambah.php" class="btn btn-sm btn-primary float-right">Tambah</a>
 			</div>
 			<div class="card-body">
+				
 				<table class="table table-bordered">
 					<thead>
 						<tr>

@@ -35,7 +35,7 @@
 					</div>
 					<div class="form-group">
 						<label>Penyakit</label>
-						<input type="text" name="penyakit" class="form-control" value="<?= $row['penyakit']; ?>">
+						<input type="text" name="penyakit" required=""  	class="form-control" value="<?= $row['penyakit']; ?>">
 					</div>
 
 					<div class="form-group">
